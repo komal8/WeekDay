@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Registration for New user",
+        "description": "",
+        "id": "to-register;registration-for-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24248315601,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "New user register all details",
+            "match": {
+              "location": "StepDef.new_user_register_all_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3542172500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "submit the form",
+            "match": {
+              "location": "StepDef.submit_the_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11948700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user on Home page",
+            "match": {
+              "location": "StepDef.user_on_Home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Register",
+    "description": "",
+    "id": "to-register",
+    "keyword": "Feature",
+    "uri": "Register.feature"
+  }
+]
